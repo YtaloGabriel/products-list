@@ -1,0 +1,34 @@
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 3rem 2rem;
+  max-width: 1000px;
+}
+
+.headerContent > h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.headerContent > nav {
+  display: flex;
+}
+
+.link {
+  padding: .8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: .2rem;
+  color: #000;
+  text-decoration: none;
+  background-color:#ededed;
+  margin-right: 1rem;
+}
+
+:global(.active),
+.link:hover {
+  background-color: #ddd;
+}

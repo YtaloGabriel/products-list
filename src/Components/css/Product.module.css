@@ -1,0 +1,15 @@
+.product {
+  display: grid;
+  grid-template-rows: 3fr auto;
+  text-decoration: none;
+}
+
+.product img {
+  max-height: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: #000;
+}

@@ -1,0 +1,36 @@
+.content {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 2rem;
+}
+
+.content img {
+  margin-bottom: 2rem;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.productInfo > h3 {
+  font-size: 1.7rem;
+}
+
+.productInfo > span {
+  margin: 1.5rem 0;
+  background-color: #adff2f;
+  color: #008000;
+  display: flex;
+  padding: .8rem;
+  border-radius: .4rem;
+  font-weight: bold;
+}
+
+.productInfo > p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
